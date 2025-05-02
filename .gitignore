@@ -1,0 +1,10 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+# Ignore configuration files
+src/config/settings.json
+# Ignore logs
+*.log
