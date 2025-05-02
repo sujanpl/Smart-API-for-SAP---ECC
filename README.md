@@ -26,7 +26,7 @@ This repository contains automation scripts and tools designed to streamline pro
 3. Configure SAP ECC connection in `src/config/settings.json`.
 4. Run the script:
    ```bash
-   python src/main_script.py
+   python src/sap-gui.py
    ```
 
 ## Contributing
