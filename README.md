@@ -98,6 +98,13 @@ print(response.status_code, response.text)
 ## Scheduling the Workflow
 
 - Use **Windows Task Scheduler** or **cron** to schedule the combined scripts for periodic, unattended execution.
+- The entire automation (SAP data extraction and report generation) is scheduled using Windows Task Scheduler to run every morning.
+
+Example configuration:
+
+Trigger: Daily at 9:00 AM
+
+Action: Run Python script that performs SAP extraction and triggers report refresh.
 
 ---
 
